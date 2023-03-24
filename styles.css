@@ -1,19 +1,48 @@
-.first-para{
-	background-color: black;
+* {
+    margin: 0;
 }
-.last-para{
-	color: red;
+
+:root{
+    background-color: skyblue;
 }
-html{
-	background-color: skyblue;
+
+.first {
+    color: white;
+    background-color: black;
 }
-p:first-child{
-	color:white;
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-p:nth-child(2){
-	color:black;
+
+.second {
+    color: red;
+    margin-top: 10px;
 }
-p:last-child{
-	color:red;
+
+.thrid {
+    display: block;
+}
+
+.pink {
+    background-color: pink;
+    padding: 10px;
+    width: 250px;
+    font-size: 10px;
+}
+
+.grey {
+    background-color: slategray;
+    padding: 10px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.white {
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+    font-size: 20px;
 }
 
