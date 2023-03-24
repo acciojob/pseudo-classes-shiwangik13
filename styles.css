@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+.first-para{
+	background-color: black;
+}
+.last-para{
+	color: red;
+}
+html{
+	background-color: skyblue;
+}
+p:first-child{
+	color:white;
+}
+p:nth-child(2){
+	color:black;
+}
+p:last-child{
+	color:red;
+}
+
